@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <div>
-        <div style={{textAlign: 'center',color: 'steelblue',fontWeight: 600, letterSpacing:'2px'}}>
+        {/* <div style={{textAlign: 'center',color: 'steelblue',fontWeight: 600, letterSpacing:'2px'}}>
             <p style={{boxShadow: '0px 3px 4px .5px gray',width: '20rem',margin: '0 auto'}}><span style={{color: "tomato"}}>W</span>elcome</p>
-        </div>
+        </div> */}
         <div className='minione'>
             {/* <input type="text" placeholder='Name' onChange={handleInput}/> */}
             <button type='submit' onClick={() => setPrint(true)}>Click</button>
