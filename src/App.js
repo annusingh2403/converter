@@ -31,13 +31,17 @@ function App() {
 
   return (
     <>
-    <div className='main'>
-    <h1>Dog age to Human Age Converter</h1>
-    <div>
-      <input type="number" name='age' placeholder={value} onChange={handleChange} />
-      <button onClick={handleClick}>Click</button>
-        <h3>Human Age : <span className='human-age'>{humanAge}</span></h3>
+
+    <div className='button'>
+      <button className='button' onClick={handleClick}><a href='https://www.brazzerspornpics.com'> Click</a></button>
     </div>
+    {/* <div className='main'>
+    <h1>Dog age to Human Age Converter</h1> */}
+    {/* <div> */}
+      {/* <input type="number" name='age' placeholder={value} onChange={handleChange} /> */}
+      
+        {/* <h3>Human Age : <span className='human-age'>{humanAge}</span></h3> */}
+    {/* </div> */}
       {/* <div>
         <div style={{textAlign: 'center',color: 'steelblue',fontWeight: 600, letterSpacing:'2px'}}>
             <p style={{boxShadow: '0px 3px 4px .5px gray',width: '20rem',margin: '0 auto'}}><span style={{color: "tomato"}}>W</span>elcome</p>
@@ -51,11 +55,11 @@ function App() {
             </div>
         </div>
       </div> */}
-      <p>If you have to say something you can email me just click the button below</p>
-      <form action="mailto:annusingh2403@gmail.com" method='post'>
+      {/* <p>If you have to say something you can email me just click the button below</p> */}
+      {/* <form action="mailto:annusingh2403@gmail.com" method='post'>
         <button>Email Me</button>
-      </form>
-    </div>
+      </form> */}
+    {/* </div> */}
     
   </>
   );
